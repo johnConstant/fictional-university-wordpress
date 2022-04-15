@@ -1,0 +1,828 @@
+[23-Sep-2020 19:44:00 UTC] PHP Parse error:  syntax error, unexpected ',', expecting variable (T_VARIABLE) in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 2
+[23-Sep-2020 19:44:20 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 4
+[23-Sep-2020 20:15:26 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/index.php on line 17
+[23-Sep-2020 20:34:32 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 1 and at least 2 expected in /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:403
+Stack trace:
+#0 /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php(1): add_action()
+#1 /Users/john/Local Sites/fictional-university/app/public/wp-settings.php(514): include('/Users/john/Loc...')
+#2 /Users/john/Local Sites/fictional-university/app/public/wp-config.php(77): require_once('/Users/john/Loc...')
+#3 /Users/john/Local Sites/fictional-university/app/public/wp-load.php(37): require_once('/Users/john/Loc...')
+#4 /Users/john/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/john/Loc...')
+#5 {main}
+  thrown in /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php on line 403
+[23-Sep-2020 20:36:32 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function add_action(), 0 passed in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 1 and at least 2 expected in /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:403
+Stack trace:
+#0 /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php(1): add_action()
+#1 /Users/john/Local Sites/fictional-university/app/public/wp-settings.php(514): include('/Users/john/Loc...')
+#2 /Users/john/Local Sites/fictional-university/app/public/wp-config.php(77): require_once('/Users/john/Loc...')
+#3 /Users/john/Local Sites/fictional-university/app/public/wp-load.php(37): require_once('/Users/john/Loc...')
+#4 /Users/john/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php(22): require_once('/Users/john/Loc...')
+#5 {main}
+  thrown in /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php on line 403
+[23-Sep-2020 20:55:01 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_style' (T_STRING) in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 5
+[23-Sep-2020 21:05:39 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_style' (T_STRING) in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 5
+[23-Sep-2020 22:04:08 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_features' not found or invalid function name in /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 287
+[23-Sep-2020 22:04:08 UTC] PHP Stack trace:
+[23-Sep-2020 22:04:08 UTC] PHP   1. {main}() /Users/john/Local Sites/fictional-university/app/public/index.php:0
+[23-Sep-2020 22:04:08 UTC] PHP   2. require() /Users/john/Local Sites/fictional-university/app/public/index.php:17
+[23-Sep-2020 22:04:08 UTC] PHP   3. require_once() /Users/john/Local Sites/fictional-university/app/public/wp-blog-header.php:13
+[23-Sep-2020 22:04:08 UTC] PHP   4. require_once() /Users/john/Local Sites/fictional-university/app/public/wp-load.php:37
+[23-Sep-2020 22:04:08 UTC] PHP   5. require_once() /Users/john/Local Sites/fictional-university/app/public/wp-config.php:77
+[23-Sep-2020 22:04:08 UTC] PHP   6. do_action() /Users/john/Local Sites/fictional-university/app/public/wp-settings.php:524
+[23-Sep-2020 22:04:08 UTC] PHP   7. WP_Hook->do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:478
+[23-Sep-2020 22:04:08 UTC] PHP   8. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[23-Sep-2020 22:04:08 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_features' not found or invalid function name in /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 287
+[23-Sep-2020 22:04:08 UTC] PHP Stack trace:
+[23-Sep-2020 22:04:08 UTC] PHP   1. {main}() /Users/john/Local Sites/fictional-university/app/public/index.php:0
+[23-Sep-2020 22:04:08 UTC] PHP   2. require() /Users/john/Local Sites/fictional-university/app/public/index.php:17
+[23-Sep-2020 22:04:08 UTC] PHP   3. require_once() /Users/john/Local Sites/fictional-university/app/public/wp-blog-header.php:13
+[23-Sep-2020 22:04:08 UTC] PHP   4. require_once() /Users/john/Local Sites/fictional-university/app/public/wp-load.php:37
+[23-Sep-2020 22:04:08 UTC] PHP   5. require_once() /Users/john/Local Sites/fictional-university/app/public/wp-config.php:77
+[23-Sep-2020 22:04:08 UTC] PHP   6. do_action() /Users/john/Local Sites/fictional-university/app/public/wp-settings.php:524
+[23-Sep-2020 22:04:08 UTC] PHP   7. WP_Hook->do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:478
+[23-Sep-2020 22:04:08 UTC] PHP   8. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[23-Sep-2020 22:04:16 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_features' not found or invalid function name in /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 287
+[23-Sep-2020 22:04:16 UTC] PHP Stack trace:
+[23-Sep-2020 22:04:16 UTC] PHP   1. {main}() /Users/john/Local Sites/fictional-university/app/public/index.php:0
+[23-Sep-2020 22:04:16 UTC] PHP   2. require() /Users/john/Local Sites/fictional-university/app/public/index.php:17
+[23-Sep-2020 22:04:16 UTC] PHP   3. require_once() /Users/john/Local Sites/fictional-university/app/public/wp-blog-header.php:13
+[23-Sep-2020 22:04:16 UTC] PHP   4. require_once() /Users/john/Local Sites/fictional-university/app/public/wp-load.php:37
+[23-Sep-2020 22:04:16 UTC] PHP   5. require_once() /Users/john/Local Sites/fictional-university/app/public/wp-config.php:77
+[23-Sep-2020 22:04:16 UTC] PHP   6. do_action() /Users/john/Local Sites/fictional-university/app/public/wp-settings.php:524
+[23-Sep-2020 22:04:16 UTC] PHP   7. WP_Hook->do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:478
+[23-Sep-2020 22:04:16 UTC] PHP   8. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[23-Sep-2020 22:04:16 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_features' not found or invalid function name in /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 287
+[23-Sep-2020 22:04:16 UTC] PHP Stack trace:
+[23-Sep-2020 22:04:16 UTC] PHP   1. {main}() /Users/john/Local Sites/fictional-university/app/public/index.php:0
+[23-Sep-2020 22:04:16 UTC] PHP   2. require() /Users/john/Local Sites/fictional-university/app/public/index.php:17
+[23-Sep-2020 22:04:16 UTC] PHP   3. require_once() /Users/john/Local Sites/fictional-university/app/public/wp-blog-header.php:13
+[23-Sep-2020 22:04:16 UTC] PHP   4. require_once() /Users/john/Local Sites/fictional-university/app/public/wp-load.php:37
+[23-Sep-2020 22:04:16 UTC] PHP   5. require_once() /Users/john/Local Sites/fictional-university/app/public/wp-config.php:77
+[23-Sep-2020 22:04:16 UTC] PHP   6. do_action() /Users/john/Local Sites/fictional-university/app/public/wp-settings.php:524
+[23-Sep-2020 22:04:16 UTC] PHP   7. WP_Hook->do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:478
+[23-Sep-2020 22:04:16 UTC] PHP   8. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[23-Sep-2020 22:04:37 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_features' not found or invalid function name in /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 287
+[23-Sep-2020 22:04:37 UTC] PHP Stack trace:
+[23-Sep-2020 22:04:37 UTC] PHP   1. {main}() /Users/john/Local Sites/fictional-university/app/public/index.php:0
+[23-Sep-2020 22:04:37 UTC] PHP   2. require() /Users/john/Local Sites/fictional-university/app/public/index.php:17
+[23-Sep-2020 22:04:37 UTC] PHP   3. require_once() /Users/john/Local Sites/fictional-university/app/public/wp-blog-header.php:13
+[23-Sep-2020 22:04:37 UTC] PHP   4. require_once() /Users/john/Local Sites/fictional-university/app/public/wp-load.php:37
+[23-Sep-2020 22:04:37 UTC] PHP   5. require_once() /Users/john/Local Sites/fictional-university/app/public/wp-config.php:77
+[23-Sep-2020 22:04:37 UTC] PHP   6. do_action() /Users/john/Local Sites/fictional-university/app/public/wp-settings.php:524
+[23-Sep-2020 22:04:37 UTC] PHP   7. WP_Hook->do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:478
+[23-Sep-2020 22:04:37 UTC] PHP   8. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[23-Sep-2020 22:04:37 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_features' not found or invalid function name in /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 287
+[23-Sep-2020 22:04:37 UTC] PHP Stack trace:
+[23-Sep-2020 22:04:37 UTC] PHP   1. {main}() /Users/john/Local Sites/fictional-university/app/public/index.php:0
+[23-Sep-2020 22:04:37 UTC] PHP   2. require() /Users/john/Local Sites/fictional-university/app/public/index.php:17
+[23-Sep-2020 22:04:37 UTC] PHP   3. require_once() /Users/john/Local Sites/fictional-university/app/public/wp-blog-header.php:13
+[23-Sep-2020 22:04:37 UTC] PHP   4. require_once() /Users/john/Local Sites/fictional-university/app/public/wp-load.php:37
+[23-Sep-2020 22:04:37 UTC] PHP   5. require_once() /Users/john/Local Sites/fictional-university/app/public/wp-config.php:77
+[23-Sep-2020 22:04:37 UTC] PHP   6. do_action() /Users/john/Local Sites/fictional-university/app/public/wp-settings.php:524
+[23-Sep-2020 22:04:37 UTC] PHP   7. WP_Hook->do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:478
+[23-Sep-2020 22:04:37 UTC] PHP   8. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[23-Sep-2020 22:05:15 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_features' not found or invalid function name in /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 287
+[23-Sep-2020 22:05:15 UTC] PHP Stack trace:
+[23-Sep-2020 22:05:15 UTC] PHP   1. {main}() /Users/john/Local Sites/fictional-university/app/public/index.php:0
+[23-Sep-2020 22:05:15 UTC] PHP   2. require() /Users/john/Local Sites/fictional-university/app/public/index.php:17
+[23-Sep-2020 22:05:15 UTC] PHP   3. require_once() /Users/john/Local Sites/fictional-university/app/public/wp-blog-header.php:13
+[23-Sep-2020 22:05:15 UTC] PHP   4. require_once() /Users/john/Local Sites/fictional-university/app/public/wp-load.php:37
+[23-Sep-2020 22:05:15 UTC] PHP   5. require_once() /Users/john/Local Sites/fictional-university/app/public/wp-config.php:77
+[23-Sep-2020 22:05:15 UTC] PHP   6. do_action() /Users/john/Local Sites/fictional-university/app/public/wp-settings.php:524
+[23-Sep-2020 22:05:15 UTC] PHP   7. WP_Hook->do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:478
+[23-Sep-2020 22:05:15 UTC] PHP   8. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[23-Sep-2020 22:05:15 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_features' not found or invalid function name in /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 287
+[23-Sep-2020 22:05:15 UTC] PHP Stack trace:
+[23-Sep-2020 22:05:15 UTC] PHP   1. {main}() /Users/john/Local Sites/fictional-university/app/public/index.php:0
+[23-Sep-2020 22:05:15 UTC] PHP   2. require() /Users/john/Local Sites/fictional-university/app/public/index.php:17
+[23-Sep-2020 22:05:15 UTC] PHP   3. require_once() /Users/john/Local Sites/fictional-university/app/public/wp-blog-header.php:13
+[23-Sep-2020 22:05:15 UTC] PHP   4. require_once() /Users/john/Local Sites/fictional-university/app/public/wp-load.php:37
+[23-Sep-2020 22:05:15 UTC] PHP   5. require_once() /Users/john/Local Sites/fictional-university/app/public/wp-config.php:77
+[23-Sep-2020 22:05:15 UTC] PHP   6. do_action() /Users/john/Local Sites/fictional-university/app/public/wp-settings.php:524
+[23-Sep-2020 22:05:15 UTC] PHP   7. WP_Hook->do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:478
+[23-Sep-2020 22:05:15 UTC] PHP   8. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[23-Sep-2020 22:06:54 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_features' not found or invalid function name in /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 287
+[23-Sep-2020 22:06:54 UTC] PHP Stack trace:
+[23-Sep-2020 22:06:54 UTC] PHP   1. {main}() /Users/john/Local Sites/fictional-university/app/public/index.php:0
+[23-Sep-2020 22:06:54 UTC] PHP   2. require() /Users/john/Local Sites/fictional-university/app/public/index.php:17
+[23-Sep-2020 22:06:54 UTC] PHP   3. require_once() /Users/john/Local Sites/fictional-university/app/public/wp-blog-header.php:13
+[23-Sep-2020 22:06:54 UTC] PHP   4. require_once() /Users/john/Local Sites/fictional-university/app/public/wp-load.php:37
+[23-Sep-2020 22:06:54 UTC] PHP   5. require_once() /Users/john/Local Sites/fictional-university/app/public/wp-config.php:77
+[23-Sep-2020 22:06:54 UTC] PHP   6. do_action() /Users/john/Local Sites/fictional-university/app/public/wp-settings.php:524
+[23-Sep-2020 22:06:54 UTC] PHP   7. WP_Hook->do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:478
+[23-Sep-2020 22:06:54 UTC] PHP   8. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[23-Sep-2020 22:06:54 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_features' not found or invalid function name in /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 287
+[23-Sep-2020 22:06:54 UTC] PHP Stack trace:
+[23-Sep-2020 22:06:54 UTC] PHP   1. {main}() /Users/john/Local Sites/fictional-university/app/public/index.php:0
+[23-Sep-2020 22:06:54 UTC] PHP   2. require() /Users/john/Local Sites/fictional-university/app/public/index.php:17
+[23-Sep-2020 22:06:54 UTC] PHP   3. require_once() /Users/john/Local Sites/fictional-university/app/public/wp-blog-header.php:13
+[23-Sep-2020 22:06:54 UTC] PHP   4. require_once() /Users/john/Local Sites/fictional-university/app/public/wp-load.php:37
+[23-Sep-2020 22:06:54 UTC] PHP   5. require_once() /Users/john/Local Sites/fictional-university/app/public/wp-config.php:77
+[23-Sep-2020 22:06:54 UTC] PHP   6. do_action() /Users/john/Local Sites/fictional-university/app/public/wp-settings.php:524
+[23-Sep-2020 22:06:54 UTC] PHP   7. WP_Hook->do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:478
+[23-Sep-2020 22:06:54 UTC] PHP   8. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[23-Sep-2020 22:06:55 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_features' not found or invalid function name in /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 287
+[23-Sep-2020 22:06:55 UTC] PHP Stack trace:
+[23-Sep-2020 22:06:55 UTC] PHP   1. {main}() /Users/john/Local Sites/fictional-university/app/public/index.php:0
+[23-Sep-2020 22:06:55 UTC] PHP   2. require() /Users/john/Local Sites/fictional-university/app/public/index.php:17
+[23-Sep-2020 22:06:55 UTC] PHP   3. require_once() /Users/john/Local Sites/fictional-university/app/public/wp-blog-header.php:13
+[23-Sep-2020 22:06:55 UTC] PHP   4. require_once() /Users/john/Local Sites/fictional-university/app/public/wp-load.php:37
+[23-Sep-2020 22:06:55 UTC] PHP   5. require_once() /Users/john/Local Sites/fictional-university/app/public/wp-config.php:77
+[23-Sep-2020 22:06:55 UTC] PHP   6. do_action() /Users/john/Local Sites/fictional-university/app/public/wp-settings.php:524
+[23-Sep-2020 22:06:55 UTC] PHP   7. WP_Hook->do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:478
+[23-Sep-2020 22:06:55 UTC] PHP   8. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[23-Sep-2020 22:06:55 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_features' not found or invalid function name in /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 287
+[23-Sep-2020 22:06:55 UTC] PHP Stack trace:
+[23-Sep-2020 22:06:55 UTC] PHP   1. {main}() /Users/john/Local Sites/fictional-university/app/public/index.php:0
+[23-Sep-2020 22:06:55 UTC] PHP   2. require() /Users/john/Local Sites/fictional-university/app/public/index.php:17
+[23-Sep-2020 22:06:55 UTC] PHP   3. require_once() /Users/john/Local Sites/fictional-university/app/public/wp-blog-header.php:13
+[23-Sep-2020 22:06:55 UTC] PHP   4. require_once() /Users/john/Local Sites/fictional-university/app/public/wp-load.php:37
+[23-Sep-2020 22:06:55 UTC] PHP   5. require_once() /Users/john/Local Sites/fictional-university/app/public/wp-config.php:77
+[23-Sep-2020 22:06:55 UTC] PHP   6. do_action() /Users/john/Local Sites/fictional-university/app/public/wp-settings.php:524
+[23-Sep-2020 22:06:55 UTC] PHP   7. WP_Hook->do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:478
+[23-Sep-2020 22:06:55 UTC] PHP   8. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[24-Sep-2020 10:35:30 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 23
+[24-Sep-2020 11:22:34 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page.php on line 31
+[24-Sep-2020 14:08:43 UTC] PHP Parse error:  syntax error, unexpected 'the_author' (T_STRING), expecting ',' or ';' in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/archive.php on line 14
+[24-Sep-2020 20:53:21 UTC] PHP Parse error:  syntax error, unexpected ''http://localhost:3000/bundled' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 6
+[24-Sep-2020 21:38:34 UTC] PHP Fatal error:  Cannot redeclare university_post_types() (previously declared in /Users/john/Local Sites/fictional-university/app/public/wp-content/mu-plugins/university-post-types.php:3) in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 28
+[24-Sep-2020 21:38:34 UTC] PHP Stack trace:
+[24-Sep-2020 21:38:34 UTC] PHP   1. {main}() /Users/john/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php:0
+[24-Sep-2020 21:38:34 UTC] PHP   2. require_once() /Users/john/Local Sites/fictional-university/app/public/wp-admin/admin-ajax.php:22
+[24-Sep-2020 21:38:34 UTC] PHP   3. require_once() /Users/john/Local Sites/fictional-university/app/public/wp-load.php:37
+[24-Sep-2020 21:38:34 UTC] PHP   4. require_once() /Users/john/Local Sites/fictional-university/app/public/wp-config.php:77
+[24-Sep-2020 21:47:31 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 121
+[24-Sep-2020 21:47:44 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 121
+[24-Sep-2020 21:56:19 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-event.php on line 7
+[25-Sep-2020 20:58:07 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/john/Local Sites/fictional-university/app/public/wp-includes/update.php on line 168
+[25-Sep-2020 20:58:07 UTC] PHP Stack trace:
+[25-Sep-2020 20:58:07 UTC] PHP   1. {main}() /Users/john/Local Sites/fictional-university/app/public/wp-cron.php:0
+[25-Sep-2020 20:58:07 UTC] PHP   2. do_action_ref_array() /Users/john/Local Sites/fictional-university/app/public/wp-cron.php:138
+[25-Sep-2020 20:58:07 UTC] PHP   3. WP_Hook->do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:544
+[25-Sep-2020 20:58:07 UTC] PHP   4. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[25-Sep-2020 20:58:07 UTC] PHP   5. wp_version_check() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287
+[25-Sep-2020 20:58:07 UTC] PHP   6. trigger_error() /Users/john/Local Sites/fictional-university/app/public/wp-includes/update.php:168
+[25-Sep-2020 20:58:07 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/john/Local Sites/fictional-university/app/public/wp-includes/update.php on line 403
+[25-Sep-2020 20:58:07 UTC] PHP Stack trace:
+[25-Sep-2020 20:58:07 UTC] PHP   1. {main}() /Users/john/Local Sites/fictional-university/app/public/wp-cron.php:0
+[25-Sep-2020 20:58:07 UTC] PHP   2. do_action_ref_array() /Users/john/Local Sites/fictional-university/app/public/wp-cron.php:138
+[25-Sep-2020 20:58:07 UTC] PHP   3. WP_Hook->do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:544
+[25-Sep-2020 20:58:07 UTC] PHP   4. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[25-Sep-2020 20:58:07 UTC] PHP   5. wp_update_plugins() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287
+[25-Sep-2020 20:58:07 UTC] PHP   6. trigger_error() /Users/john/Local Sites/fictional-university/app/public/wp-includes/update.php:403
+[25-Sep-2020 20:58:07 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/john/Local Sites/fictional-university/app/public/wp-includes/update.php on line 607
+[25-Sep-2020 20:58:07 UTC] PHP Stack trace:
+[25-Sep-2020 20:58:07 UTC] PHP   1. {main}() /Users/john/Local Sites/fictional-university/app/public/wp-cron.php:0
+[25-Sep-2020 20:58:07 UTC] PHP   2. do_action_ref_array() /Users/john/Local Sites/fictional-university/app/public/wp-cron.php:138
+[25-Sep-2020 20:58:07 UTC] PHP   3. WP_Hook->do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:544
+[25-Sep-2020 20:58:07 UTC] PHP   4. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[25-Sep-2020 20:58:07 UTC] PHP   5. wp_update_themes() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287
+[25-Sep-2020 20:58:07 UTC] PHP   6. trigger_error() /Users/john/Local Sites/fictional-university/app/public/wp-includes/update.php:607
+[25-Sep-2020 21:03:22 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 65
+[25-Sep-2020 21:47:29 UTC] PHP Parse error:  syntax error, unexpected ''orderby'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/front-page.php on line 27
+[27-Sep-2020 11:54:58 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-event.php on line 31
+[27-Sep-2020 12:05:50 UTC] PHP Parse error:  syntax error, unexpected ''compare'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 53
+[27-Sep-2020 12:14:49 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE), expecting ',' or ';' in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 60
+[27-Sep-2020 12:34:20 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 103
+[27-Sep-2020 12:34:45 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 100
+[27-Sep-2020 12:39:02 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 75
+[27-Sep-2020 12:41:23 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 76
+[27-Sep-2020 12:43:39 UTC] PHP Parse error:  syntax error, unexpected end of file in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 76
+[27-Sep-2020 17:11:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_post_thumnail() in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php:22
+Stack trace:
+#0 /Users/john/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/john/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/john/Loc...')
+#2 /Users/john/Local Sites/fictional-university/app/public/index.php(17): require('/Users/john/Loc...')
+#3 {main}
+  thrown in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 22
+[27-Sep-2020 17:11:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_post_thumnail() in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php:22
+Stack trace:
+#0 /Users/john/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/john/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/john/Loc...')
+#2 /Users/john/Local Sites/fictional-university/app/public/index.php(17): require('/Users/john/Loc...')
+#3 {main}
+  thrown in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 22
+[27-Sep-2020 19:09:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function pageBanner() in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php:8
+Stack trace:
+#0 /Users/john/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/john/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/john/Loc...')
+#2 /Users/john/Local Sites/fictional-university/app/public/index.php(17): require('/Users/john/Loc...')
+#3 {main}
+  thrown in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 8
+[27-Sep-2020 19:10:14 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /Users/john/Local Sites/fictional-university/app/public/wp-includes/update.php on line 168
+[27-Sep-2020 19:10:14 UTC] PHP Stack trace:
+[27-Sep-2020 19:10:14 UTC] PHP   1. {main}() /Users/john/Local Sites/fictional-university/app/public/wp-cron.php:0
+[27-Sep-2020 19:10:14 UTC] PHP   2. do_action_ref_array() /Users/john/Local Sites/fictional-university/app/public/wp-cron.php:138
+[27-Sep-2020 19:10:14 UTC] PHP   3. WP_Hook->do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:544
+[27-Sep-2020 19:10:14 UTC] PHP   4. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[27-Sep-2020 19:10:14 UTC] PHP   5. wp_version_check() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287
+[27-Sep-2020 19:10:14 UTC] PHP   6. trigger_error() /Users/john/Local Sites/fictional-university/app/public/wp-includes/update.php:168
+[27-Sep-2020 19:33:32 UTC] PHP Parse error:  syntax error, unexpected '}' in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 16
+[27-Sep-2020 21:17:32 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/archive.php on line 6
+[27-Sep-2020 21:17:39 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/archive.php on line 6
+[27-Sep-2020 21:35:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/archive-event.php:23
+Stack trace:
+#0 /Users/john/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/john/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/john/Loc...')
+#2 /Users/john/Local Sites/fictional-university/app/public/index.php(17): require('/Users/john/Loc...')
+#3 {main}
+  thrown in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/archive-event.php on line 23
+[28-Sep-2020 11:52:49 UTC] PHP Parse error:  syntax error, unexpected '>' in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/header.php on line 22
+[28-Sep-2020 12:39:46 UTC] PHP Parse error:  syntax error, unexpected 'available' (T_STRING) in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 109
+[28-Sep-2020 12:39:54 UTC] PHP Parse error:  syntax error, unexpected 'available' (T_STRING) in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 109
+[28-Sep-2020 12:40:19 UTC] PHP Parse error:  syntax error, unexpected '.' in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 109
+[28-Sep-2020 12:45:26 UTC] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH), expecting ',' or ';' in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-program.php on line 115
+[28-Sep-2020 12:48:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-campus.php:80
+Stack trace:
+#0 /Users/john/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/john/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/john/Loc...')
+#2 /Users/john/Local Sites/fictional-university/app/public/index.php(17): require('/Users/john/Loc...')
+#3 {main}
+  thrown in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-campus.php on line 80
+[28-Sep-2020 12:48:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function have_posts() on null in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-campus.php:80
+Stack trace:
+#0 /Users/john/Local Sites/fictional-university/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/john/Local Sites/fictional-university/app/public/wp-blog-header.php(19): require_once('/Users/john/Loc...')
+#2 /Users/john/Local Sites/fictional-university/app/public/index.php(17): require('/Users/john/Loc...')
+#3 {main}
+  thrown in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-campus.php on line 80
+[28-Sep-2020 12:49:26 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-campus.php on line 121
+[29-Sep-2020 11:04:23 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/search-route.php on line 17
+[29-Sep-2020 11:04:43 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/search-route.php on line 17
+[29-Sep-2020 12:40:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_field() in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/search-route.php:17
+Stack trace:
+#0 /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php(1050): university_search_results(Object(WP_REST_Request))
+#1 /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php(376): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#2 /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api.php(339): WP_REST_Server->serve_request('/university/v1/...')
+#3 /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(287): rest_api_loaded(Object(WP))
+#4 /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php(544): WP_Hook->do_a in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/search-route.php on line 17
+[29-Sep-2020 12:47:43 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/search-route.php on line 25
+[29-Sep-2020 12:47:43 UTC] PHP Stack trace:
+[29-Sep-2020 12:47:43 UTC] PHP   1. {main}() /Users/john/Local Sites/fictional-university/app/public/index.php:0
+[29-Sep-2020 12:47:43 UTC] PHP   2. require() /Users/john/Local Sites/fictional-university/app/public/index.php:17
+[29-Sep-2020 12:47:43 UTC] PHP   3. wp() /Users/john/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[29-Sep-2020 12:47:43 UTC] PHP   4. WP->main() /Users/john/Local Sites/fictional-university/app/public/wp-includes/functions.php:1285
+[29-Sep-2020 12:47:43 UTC] PHP   5. WP->parse_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:745
+[29-Sep-2020 12:47:43 UTC] PHP   6. do_action_ref_array() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:388
+[29-Sep-2020 12:47:43 UTC] PHP   7. WP_Hook->do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:544
+[29-Sep-2020 12:47:43 UTC] PHP   8. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[29-Sep-2020 12:47:43 UTC] PHP   9. rest_api_loaded() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287
+[29-Sep-2020 12:47:43 UTC] PHP  10. WP_REST_Server->serve_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:339
+[29-Sep-2020 12:47:43 UTC] PHP  11. WP_REST_Server->dispatch() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:376
+[29-Sep-2020 12:47:43 UTC] PHP  12. university_search_results() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1050
+[29-Sep-2020 12:47:43 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) in /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-fatal-error-handler.php on line 72
+[29-Sep-2020 12:47:43 UTC] PHP Stack trace:
+[29-Sep-2020 12:47:43 UTC] PHP   1. {main}() /Users/john/Local Sites/fictional-university/app/public/index.php:0
+[29-Sep-2020 12:47:43 UTC] PHP   2. require() /Users/john/Local Sites/fictional-university/app/public/index.php:17
+[29-Sep-2020 12:47:43 UTC] PHP   3. wp() /Users/john/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[29-Sep-2020 12:47:43 UTC] PHP   4. WP->main() /Users/john/Local Sites/fictional-university/app/public/wp-includes/functions.php:1285
+[29-Sep-2020 12:47:43 UTC] PHP   5. WP->parse_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:745
+[29-Sep-2020 12:47:43 UTC] PHP   6. do_action_ref_array() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:388
+[29-Sep-2020 12:47:43 UTC] PHP   7. WP_Hook->do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:544
+[29-Sep-2020 12:47:43 UTC] PHP   8. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[29-Sep-2020 12:47:43 UTC] PHP   9. rest_api_loaded() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287
+[29-Sep-2020 12:47:43 UTC] PHP  10. WP_REST_Server->serve_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:339
+[29-Sep-2020 12:47:43 UTC] PHP  11. WP_REST_Server->dispatch() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:376
+[29-Sep-2020 12:47:43 UTC] PHP  12. university_search_results() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1050
+[29-Sep-2020 12:47:43 UTC] PHP  13. WP_Fatal_Error_Handler->handle() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-fatal-error-handler.php:0
+[29-Sep-2020 12:47:43 UTC] PHP  14. WP_Fatal_Error_Handler->detect_error() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-fatal-error-handler.php:40
+[29-Sep-2020 12:47:43 UTC] PHP  15. error_get_last() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-fatal-error-handler.php:72
+[29-Sep-2020 12:49:05 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 4096 bytes) in /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 280
+[29-Sep-2020 12:49:05 UTC] PHP Stack trace:
+[29-Sep-2020 12:49:05 UTC] PHP   1. {main}() /Users/john/Local Sites/fictional-university/app/public/index.php:0
+[29-Sep-2020 12:49:05 UTC] PHP   2. require() /Users/john/Local Sites/fictional-university/app/public/index.php:17
+[29-Sep-2020 12:49:05 UTC] PHP   3. wp() /Users/john/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[29-Sep-2020 12:49:05 UTC] PHP   4. WP->main() /Users/john/Local Sites/fictional-university/app/public/wp-includes/functions.php:1285
+[29-Sep-2020 12:49:05 UTC] PHP   5. WP->parse_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:745
+[29-Sep-2020 12:49:05 UTC] PHP   6. do_action_ref_array() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:388
+[29-Sep-2020 12:49:05 UTC] PHP   7. WP_Hook->do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:544
+[29-Sep-2020 12:49:05 UTC] PHP   8. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[29-Sep-2020 12:49:05 UTC] PHP   9. rest_api_loaded() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287
+[29-Sep-2020 12:49:05 UTC] PHP  10. WP_REST_Server->serve_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:339
+[29-Sep-2020 12:49:05 UTC] PHP  11. WP_REST_Server->dispatch() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:376
+[29-Sep-2020 12:49:05 UTC] PHP  12. university_search_results() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1050
+[29-Sep-2020 12:49:05 UTC] PHP  13. get_the_title() /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/search-route.php:25
+[29-Sep-2020 12:49:05 UTC] PHP  14. apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/post-template.php:171
+[29-Sep-2020 12:49:05 UTC] PHP  15. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:206
+[29-Sep-2020 12:49:05 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) in /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 275
+[29-Sep-2020 12:49:05 UTC] PHP Stack trace:
+[29-Sep-2020 12:49:05 UTC] PHP   1. {main}() /Users/john/Local Sites/fictional-university/app/public/index.php:0
+[29-Sep-2020 12:49:05 UTC] PHP   2. require() /Users/john/Local Sites/fictional-university/app/public/index.php:17
+[29-Sep-2020 12:49:05 UTC] PHP   3. wp() /Users/john/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[29-Sep-2020 12:49:05 UTC] PHP   4. WP->main() /Users/john/Local Sites/fictional-university/app/public/wp-includes/functions.php:1285
+[29-Sep-2020 12:49:05 UTC] PHP   5. WP->parse_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:745
+[29-Sep-2020 12:49:05 UTC] PHP   6. do_action_ref_array() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:388
+[29-Sep-2020 12:49:05 UTC] PHP   7. WP_Hook->do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:544
+[29-Sep-2020 12:49:05 UTC] PHP   8. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[29-Sep-2020 12:49:05 UTC] PHP   9. rest_api_loaded() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287
+[29-Sep-2020 12:49:05 UTC] PHP  10. WP_REST_Server->serve_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:339
+[29-Sep-2020 12:49:05 UTC] PHP  11. WP_REST_Server->dispatch() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:376
+[29-Sep-2020 12:49:05 UTC] PHP  12. university_search_results() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1050
+[29-Sep-2020 12:49:05 UTC] PHP  13. get_the_title() /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/search-route.php:25
+[29-Sep-2020 12:49:05 UTC] PHP  14. apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/post-template.php:171
+[29-Sep-2020 12:49:05 UTC] PHP  15. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:206
+[29-Sep-2020 12:49:05 UTC] PHP  16. shutdown_action_hook() /Users/john/Local Sites/fictional-university/app/public/wp-includes/load.php:0
+[29-Sep-2020 12:49:05 UTC] PHP  17. do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/load.php:1007
+[29-Sep-2020 12:49:05 UTC] PHP  18. WP_Hook->do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:478
+[29-Sep-2020 12:49:05 UTC] PHP  19. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[29-Sep-2020 12:50:21 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) in /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 280
+[29-Sep-2020 12:50:21 UTC] PHP Stack trace:
+[29-Sep-2020 12:50:21 UTC] PHP   1. {main}() /Users/john/Local Sites/fictional-university/app/public/index.php:0
+[29-Sep-2020 12:50:21 UTC] PHP   2. require() /Users/john/Local Sites/fictional-university/app/public/index.php:17
+[29-Sep-2020 12:50:21 UTC] PHP   3. wp() /Users/john/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[29-Sep-2020 12:50:21 UTC] PHP   4. WP->main() /Users/john/Local Sites/fictional-university/app/public/wp-includes/functions.php:1285
+[29-Sep-2020 12:50:21 UTC] PHP   5. WP->parse_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:745
+[29-Sep-2020 12:50:21 UTC] PHP   6. do_action_ref_array() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:388
+[29-Sep-2020 12:50:21 UTC] PHP   7. WP_Hook->do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:544
+[29-Sep-2020 12:50:21 UTC] PHP   8. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[29-Sep-2020 12:50:21 UTC] PHP   9. rest_api_loaded() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287
+[29-Sep-2020 12:50:21 UTC] PHP  10. WP_REST_Server->serve_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:339
+[29-Sep-2020 12:50:21 UTC] PHP  11. WP_REST_Server->dispatch() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:376
+[29-Sep-2020 12:50:21 UTC] PHP  12. university_search_results() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1050
+[29-Sep-2020 12:50:21 UTC] PHP  13. get_the_title() /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/search-route.php:25
+[29-Sep-2020 12:50:21 UTC] PHP  14. apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/post-template.php:171
+[29-Sep-2020 12:50:21 UTC] PHP  15. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:206
+[29-Sep-2020 12:50:21 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) in /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-fatal-error-handler.php on line 72
+[29-Sep-2020 12:50:21 UTC] PHP Stack trace:
+[29-Sep-2020 12:50:21 UTC] PHP   1. {main}() /Users/john/Local Sites/fictional-university/app/public/index.php:0
+[29-Sep-2020 12:50:21 UTC] PHP   2. require() /Users/john/Local Sites/fictional-university/app/public/index.php:17
+[29-Sep-2020 12:50:21 UTC] PHP   3. wp() /Users/john/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[29-Sep-2020 12:50:21 UTC] PHP   4. WP->main() /Users/john/Local Sites/fictional-university/app/public/wp-includes/functions.php:1285
+[29-Sep-2020 12:50:21 UTC] PHP   5. WP->parse_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:745
+[29-Sep-2020 12:50:21 UTC] PHP   6. do_action_ref_array() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:388
+[29-Sep-2020 12:50:21 UTC] PHP   7. WP_Hook->do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:544
+[29-Sep-2020 12:50:21 UTC] PHP   8. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[29-Sep-2020 12:50:21 UTC] PHP   9. rest_api_loaded() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287
+[29-Sep-2020 12:50:21 UTC] PHP  10. WP_REST_Server->serve_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:339
+[29-Sep-2020 12:50:21 UTC] PHP  11. WP_REST_Server->dispatch() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:376
+[29-Sep-2020 12:50:21 UTC] PHP  12. university_search_results() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1050
+[29-Sep-2020 12:50:21 UTC] PHP  13. get_the_title() /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/search-route.php:25
+[29-Sep-2020 12:50:21 UTC] PHP  14. apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/post-template.php:171
+[29-Sep-2020 12:50:21 UTC] PHP  15. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:206
+[29-Sep-2020 12:50:21 UTC] PHP  16. WP_Fatal_Error_Handler->handle() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-fatal-error-handler.php:0
+[29-Sep-2020 12:50:21 UTC] PHP  17. WP_Fatal_Error_Handler->detect_error() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-fatal-error-handler.php:40
+[29-Sep-2020 12:50:21 UTC] PHP  18. error_get_last() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-fatal-error-handler.php:72
+[29-Sep-2020 12:52:28 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) in /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 280
+[29-Sep-2020 12:52:28 UTC] PHP Stack trace:
+[29-Sep-2020 12:52:28 UTC] PHP   1. {main}() /Users/john/Local Sites/fictional-university/app/public/index.php:0
+[29-Sep-2020 12:52:28 UTC] PHP   2. require() /Users/john/Local Sites/fictional-university/app/public/index.php:17
+[29-Sep-2020 12:52:28 UTC] PHP   3. wp() /Users/john/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[29-Sep-2020 12:52:28 UTC] PHP   4. WP->main() /Users/john/Local Sites/fictional-university/app/public/wp-includes/functions.php:1285
+[29-Sep-2020 12:52:28 UTC] PHP   5. WP->parse_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:745
+[29-Sep-2020 12:52:28 UTC] PHP   6. do_action_ref_array() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:388
+[29-Sep-2020 12:52:28 UTC] PHP   7. WP_Hook->do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:544
+[29-Sep-2020 12:52:28 UTC] PHP   8. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[29-Sep-2020 12:52:28 UTC] PHP   9. rest_api_loaded() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287
+[29-Sep-2020 12:52:28 UTC] PHP  10. WP_REST_Server->serve_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:339
+[29-Sep-2020 12:52:28 UTC] PHP  11. WP_REST_Server->dispatch() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:376
+[29-Sep-2020 12:52:28 UTC] PHP  12. university_search_results() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1050
+[29-Sep-2020 12:52:28 UTC] PHP  13. get_the_title() /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/search-route.php:25
+[29-Sep-2020 12:52:28 UTC] PHP  14. apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/post-template.php:171
+[29-Sep-2020 12:52:28 UTC] PHP  15. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:206
+[29-Sep-2020 12:52:28 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) in /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-fatal-error-handler.php on line 72
+[29-Sep-2020 12:52:28 UTC] PHP Stack trace:
+[29-Sep-2020 12:52:28 UTC] PHP   1. {main}() /Users/john/Local Sites/fictional-university/app/public/index.php:0
+[29-Sep-2020 12:52:28 UTC] PHP   2. require() /Users/john/Local Sites/fictional-university/app/public/index.php:17
+[29-Sep-2020 12:52:28 UTC] PHP   3. wp() /Users/john/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[29-Sep-2020 12:52:28 UTC] PHP   4. WP->main() /Users/john/Local Sites/fictional-university/app/public/wp-includes/functions.php:1285
+[29-Sep-2020 12:52:28 UTC] PHP   5. WP->parse_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:745
+[29-Sep-2020 12:52:28 UTC] PHP   6. do_action_ref_array() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:388
+[29-Sep-2020 12:52:28 UTC] PHP   7. WP_Hook->do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:544
+[29-Sep-2020 12:52:28 UTC] PHP   8. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[29-Sep-2020 12:52:28 UTC] PHP   9. rest_api_loaded() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287
+[29-Sep-2020 12:52:28 UTC] PHP  10. WP_REST_Server->serve_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:339
+[29-Sep-2020 12:52:28 UTC] PHP  11. WP_REST_Server->dispatch() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:376
+[29-Sep-2020 12:52:28 UTC] PHP  12. university_search_results() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1050
+[29-Sep-2020 12:52:28 UTC] PHP  13. get_the_title() /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/search-route.php:25
+[29-Sep-2020 12:52:28 UTC] PHP  14. apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/post-template.php:171
+[29-Sep-2020 12:52:28 UTC] PHP  15. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:206
+[29-Sep-2020 12:52:28 UTC] PHP  16. WP_Fatal_Error_Handler->handle() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-fatal-error-handler.php:0
+[29-Sep-2020 12:52:28 UTC] PHP  17. WP_Fatal_Error_Handler->detect_error() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-fatal-error-handler.php:40
+[29-Sep-2020 12:52:28 UTC] PHP  18. error_get_last() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-fatal-error-handler.php:72
+[29-Sep-2020 12:53:59 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 268435464 bytes) in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/search-route.php on line 24
+[29-Sep-2020 12:53:59 UTC] PHP Stack trace:
+[29-Sep-2020 12:53:59 UTC] PHP   1. {main}() /Users/john/Local Sites/fictional-university/app/public/index.php:0
+[29-Sep-2020 12:53:59 UTC] PHP   2. require() /Users/john/Local Sites/fictional-university/app/public/index.php:17
+[29-Sep-2020 12:53:59 UTC] PHP   3. wp() /Users/john/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[29-Sep-2020 12:53:59 UTC] PHP   4. WP->main() /Users/john/Local Sites/fictional-university/app/public/wp-includes/functions.php:1285
+[29-Sep-2020 12:53:59 UTC] PHP   5. WP->parse_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:745
+[29-Sep-2020 12:53:59 UTC] PHP   6. do_action_ref_array() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:388
+[29-Sep-2020 12:53:59 UTC] PHP   7. WP_Hook->do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:544
+[29-Sep-2020 12:53:59 UTC] PHP   8. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[29-Sep-2020 12:53:59 UTC] PHP   9. rest_api_loaded() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287
+[29-Sep-2020 12:53:59 UTC] PHP  10. WP_REST_Server->serve_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:339
+[29-Sep-2020 12:53:59 UTC] PHP  11. WP_REST_Server->dispatch() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:376
+[29-Sep-2020 12:53:59 UTC] PHP  12. university_search_results() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1050
+[29-Sep-2020 12:53:59 UTC] PHP  13. array_push() /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/search-route.php:24
+[29-Sep-2020 12:55:15 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) in /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php on line 280
+[29-Sep-2020 12:55:15 UTC] PHP Stack trace:
+[29-Sep-2020 12:55:15 UTC] PHP   1. {main}() /Users/john/Local Sites/fictional-university/app/public/index.php:0
+[29-Sep-2020 12:55:15 UTC] PHP   2. require() /Users/john/Local Sites/fictional-university/app/public/index.php:17
+[29-Sep-2020 12:55:15 UTC] PHP   3. wp() /Users/john/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[29-Sep-2020 12:55:15 UTC] PHP   4. WP->main() /Users/john/Local Sites/fictional-university/app/public/wp-includes/functions.php:1285
+[29-Sep-2020 12:55:15 UTC] PHP   5. WP->parse_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:745
+[29-Sep-2020 12:55:15 UTC] PHP   6. do_action_ref_array() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:388
+[29-Sep-2020 12:55:15 UTC] PHP   7. WP_Hook->do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:544
+[29-Sep-2020 12:55:15 UTC] PHP   8. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[29-Sep-2020 12:55:15 UTC] PHP   9. rest_api_loaded() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287
+[29-Sep-2020 12:55:15 UTC] PHP  10. WP_REST_Server->serve_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:339
+[29-Sep-2020 12:55:15 UTC] PHP  11. WP_REST_Server->dispatch() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:376
+[29-Sep-2020 12:55:15 UTC] PHP  12. university_search_results() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1050
+[29-Sep-2020 12:55:15 UTC] PHP  13. get_the_title() /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/search-route.php:25
+[29-Sep-2020 12:55:15 UTC] PHP  14. apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/post-template.php:171
+[29-Sep-2020 12:55:15 UTC] PHP  15. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:206
+[29-Sep-2020 12:55:15 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 20480 bytes) in /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-fatal-error-handler.php on line 72
+[29-Sep-2020 12:55:15 UTC] PHP Stack trace:
+[29-Sep-2020 12:55:15 UTC] PHP   1. {main}() /Users/john/Local Sites/fictional-university/app/public/index.php:0
+[29-Sep-2020 12:55:15 UTC] PHP   2. require() /Users/john/Local Sites/fictional-university/app/public/index.php:17
+[29-Sep-2020 12:55:15 UTC] PHP   3. wp() /Users/john/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[29-Sep-2020 12:55:15 UTC] PHP   4. WP->main() /Users/john/Local Sites/fictional-university/app/public/wp-includes/functions.php:1285
+[29-Sep-2020 12:55:15 UTC] PHP   5. WP->parse_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:745
+[29-Sep-2020 12:55:15 UTC] PHP   6. do_action_ref_array() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:388
+[29-Sep-2020 12:55:15 UTC] PHP   7. WP_Hook->do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:544
+[29-Sep-2020 12:55:15 UTC] PHP   8. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[29-Sep-2020 12:55:15 UTC] PHP   9. rest_api_loaded() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287
+[29-Sep-2020 12:55:15 UTC] PHP  10. WP_REST_Server->serve_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:339
+[29-Sep-2020 12:55:15 UTC] PHP  11. WP_REST_Server->dispatch() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:376
+[29-Sep-2020 12:55:15 UTC] PHP  12. university_search_results() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1050
+[29-Sep-2020 12:55:15 UTC] PHP  13. get_the_title() /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/search-route.php:25
+[29-Sep-2020 12:55:15 UTC] PHP  14. apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/post-template.php:171
+[29-Sep-2020 12:55:15 UTC] PHP  15. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:206
+[29-Sep-2020 12:55:15 UTC] PHP  16. WP_Fatal_Error_Handler->handle() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-fatal-error-handler.php:0
+[29-Sep-2020 12:55:15 UTC] PHP  17. WP_Fatal_Error_Handler->detect_error() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-fatal-error-handler.php:40
+[29-Sep-2020 12:55:15 UTC] PHP  18. error_get_last() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-fatal-error-handler.php:72
+[29-Sep-2020 14:50:48 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/search-route.php on line 44
+[29-Sep-2020 14:50:51 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/search-route.php on line 44
+[29-Sep-2020 15:50:46 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE), expecting ')' in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/search-route.php on line 89
+[29-Sep-2020 15:50:46 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE), expecting ')' in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/search-route.php on line 89
+[29-Sep-2020 15:50:50 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE), expecting ')' in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/search-route.php on line 89
+[29-Sep-2020 15:51:26 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE), expecting ')' in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/search-route.php on line 89
+[29-Sep-2020 15:52:39 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE), expecting ')' in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/search-route.php on line 89
+[29-Sep-2020 15:53:59 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/search-route.php on line 88
+[29-Sep-2020 15:54:06 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE), expecting ')' in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/search-route.php on line 90
+[29-Sep-2020 15:54:40 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/search-route.php on line 88
+[29-Sep-2020 15:55:05 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE) in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/search-route.php on line 88
+[29-Sep-2020 15:55:45 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/search-route.php on line 100
+[29-Sep-2020 15:55:54 UTC] PHP Parse error:  syntax error, unexpected ')' in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/search-route.php on line 100
+[29-Sep-2020 15:59:31 UTC] PHP Warning:  Use of undefined constant results - assumed 'results' (this will throw an Error in a future version of PHP) in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/search-route.php on line 101
+[29-Sep-2020 15:59:31 UTC] PHP Stack trace:
+[29-Sep-2020 15:59:31 UTC] PHP   1. {main}() /Users/john/Local Sites/fictional-university/app/public/index.php:0
+[29-Sep-2020 15:59:31 UTC] PHP   2. require() /Users/john/Local Sites/fictional-university/app/public/index.php:17
+[29-Sep-2020 15:59:31 UTC] PHP   3. wp() /Users/john/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[29-Sep-2020 15:59:31 UTC] PHP   4. WP->main() /Users/john/Local Sites/fictional-university/app/public/wp-includes/functions.php:1285
+[29-Sep-2020 15:59:31 UTC] PHP   5. WP->parse_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:745
+[29-Sep-2020 15:59:31 UTC] PHP   6. do_action_ref_array() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:388
+[29-Sep-2020 15:59:31 UTC] PHP   7. WP_Hook->do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:544
+[29-Sep-2020 15:59:31 UTC] PHP   8. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[29-Sep-2020 15:59:31 UTC] PHP   9. rest_api_loaded() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287
+[29-Sep-2020 15:59:31 UTC] PHP  10. WP_REST_Server->serve_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:339
+[29-Sep-2020 15:59:31 UTC] PHP  11. WP_REST_Server->dispatch() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:376
+[29-Sep-2020 15:59:31 UTC] PHP  12. university_search_results() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1050
+[29-Sep-2020 15:59:31 UTC] PHP Warning:  Illegal string offset 'professors' in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/search-route.php on line 101
+[29-Sep-2020 15:59:31 UTC] PHP Stack trace:
+[29-Sep-2020 15:59:31 UTC] PHP   1. {main}() /Users/john/Local Sites/fictional-university/app/public/index.php:0
+[29-Sep-2020 15:59:31 UTC] PHP   2. require() /Users/john/Local Sites/fictional-university/app/public/index.php:17
+[29-Sep-2020 15:59:31 UTC] PHP   3. wp() /Users/john/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[29-Sep-2020 15:59:31 UTC] PHP   4. WP->main() /Users/john/Local Sites/fictional-university/app/public/wp-includes/functions.php:1285
+[29-Sep-2020 15:59:31 UTC] PHP   5. WP->parse_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:745
+[29-Sep-2020 15:59:31 UTC] PHP   6. do_action_ref_array() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:388
+[29-Sep-2020 15:59:31 UTC] PHP   7. WP_Hook->do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:544
+[29-Sep-2020 15:59:31 UTC] PHP   8. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[29-Sep-2020 15:59:31 UTC] PHP   9. rest_api_loaded() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287
+[29-Sep-2020 15:59:31 UTC] PHP  10. WP_REST_Server->serve_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:339
+[29-Sep-2020 15:59:31 UTC] PHP  11. WP_REST_Server->dispatch() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:376
+[29-Sep-2020 15:59:31 UTC] PHP  12. university_search_results() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1050
+[29-Sep-2020 15:59:31 UTC] PHP Warning:  array_unique() expects parameter 1 to be array, string given in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/search-route.php on line 101
+[29-Sep-2020 15:59:31 UTC] PHP Stack trace:
+[29-Sep-2020 15:59:31 UTC] PHP   1. {main}() /Users/john/Local Sites/fictional-university/app/public/index.php:0
+[29-Sep-2020 15:59:31 UTC] PHP   2. require() /Users/john/Local Sites/fictional-university/app/public/index.php:17
+[29-Sep-2020 15:59:31 UTC] PHP   3. wp() /Users/john/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[29-Sep-2020 15:59:31 UTC] PHP   4. WP->main() /Users/john/Local Sites/fictional-university/app/public/wp-includes/functions.php:1285
+[29-Sep-2020 15:59:31 UTC] PHP   5. WP->parse_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:745
+[29-Sep-2020 15:59:31 UTC] PHP   6. do_action_ref_array() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:388
+[29-Sep-2020 15:59:31 UTC] PHP   7. WP_Hook->do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:544
+[29-Sep-2020 15:59:31 UTC] PHP   8. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[29-Sep-2020 15:59:31 UTC] PHP   9. rest_api_loaded() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287
+[29-Sep-2020 15:59:31 UTC] PHP  10. WP_REST_Server->serve_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:339
+[29-Sep-2020 15:59:31 UTC] PHP  11. WP_REST_Server->dispatch() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:376
+[29-Sep-2020 15:59:31 UTC] PHP  12. university_search_results() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1050
+[29-Sep-2020 15:59:31 UTC] PHP  13. array_unique() /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/search-route.php:101
+[29-Sep-2020 15:59:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/search-route.php:101) in /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php on line 1372
+[29-Sep-2020 15:59:31 UTC] PHP Stack trace:
+[29-Sep-2020 15:59:31 UTC] PHP   1. {main}() /Users/john/Local Sites/fictional-university/app/public/index.php:0
+[29-Sep-2020 15:59:31 UTC] PHP   2. require() /Users/john/Local Sites/fictional-university/app/public/index.php:17
+[29-Sep-2020 15:59:31 UTC] PHP   3. wp() /Users/john/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[29-Sep-2020 15:59:31 UTC] PHP   4. WP->main() /Users/john/Local Sites/fictional-university/app/public/wp-includes/functions.php:1285
+[29-Sep-2020 15:59:31 UTC] PHP   5. WP->parse_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:745
+[29-Sep-2020 15:59:31 UTC] PHP   6. do_action_ref_array() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:388
+[29-Sep-2020 15:59:31 UTC] PHP   7. WP_Hook->do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:544
+[29-Sep-2020 15:59:31 UTC] PHP   8. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[29-Sep-2020 15:59:31 UTC] PHP   9. rest_api_loaded() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287
+[29-Sep-2020 15:59:31 UTC] PHP  10. WP_REST_Server->serve_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:339
+[29-Sep-2020 15:59:31 UTC] PHP  11. WP_REST_Server->send_headers() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:408
+[29-Sep-2020 15:59:31 UTC] PHP  12. WP_REST_Server->send_header() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1384
+[29-Sep-2020 15:59:31 UTC] PHP  13. header() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1372
+[29-Sep-2020 15:59:47 UTC] PHP Warning:  Use of undefined constant results - assumed 'results' (this will throw an Error in a future version of PHP) in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/search-route.php on line 101
+[29-Sep-2020 15:59:47 UTC] PHP Stack trace:
+[29-Sep-2020 15:59:47 UTC] PHP   1. {main}() /Users/john/Local Sites/fictional-university/app/public/index.php:0
+[29-Sep-2020 15:59:47 UTC] PHP   2. require() /Users/john/Local Sites/fictional-university/app/public/index.php:17
+[29-Sep-2020 15:59:47 UTC] PHP   3. wp() /Users/john/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[29-Sep-2020 15:59:47 UTC] PHP   4. WP->main() /Users/john/Local Sites/fictional-university/app/public/wp-includes/functions.php:1285
+[29-Sep-2020 15:59:47 UTC] PHP   5. WP->parse_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:745
+[29-Sep-2020 15:59:47 UTC] PHP   6. do_action_ref_array() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:388
+[29-Sep-2020 15:59:47 UTC] PHP   7. WP_Hook->do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:544
+[29-Sep-2020 15:59:47 UTC] PHP   8. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[29-Sep-2020 15:59:47 UTC] PHP   9. rest_api_loaded() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287
+[29-Sep-2020 15:59:47 UTC] PHP  10. WP_REST_Server->serve_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:339
+[29-Sep-2020 15:59:47 UTC] PHP  11. WP_REST_Server->dispatch() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:376
+[29-Sep-2020 15:59:47 UTC] PHP  12. university_search_results() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1050
+[29-Sep-2020 15:59:47 UTC] PHP Warning:  Illegal string offset 'professors' in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/search-route.php on line 101
+[29-Sep-2020 15:59:47 UTC] PHP Stack trace:
+[29-Sep-2020 15:59:47 UTC] PHP   1. {main}() /Users/john/Local Sites/fictional-university/app/public/index.php:0
+[29-Sep-2020 15:59:47 UTC] PHP   2. require() /Users/john/Local Sites/fictional-university/app/public/index.php:17
+[29-Sep-2020 15:59:47 UTC] PHP   3. wp() /Users/john/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[29-Sep-2020 15:59:47 UTC] PHP   4. WP->main() /Users/john/Local Sites/fictional-university/app/public/wp-includes/functions.php:1285
+[29-Sep-2020 15:59:47 UTC] PHP   5. WP->parse_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:745
+[29-Sep-2020 15:59:47 UTC] PHP   6. do_action_ref_array() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:388
+[29-Sep-2020 15:59:47 UTC] PHP   7. WP_Hook->do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:544
+[29-Sep-2020 15:59:47 UTC] PHP   8. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[29-Sep-2020 15:59:47 UTC] PHP   9. rest_api_loaded() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287
+[29-Sep-2020 15:59:47 UTC] PHP  10. WP_REST_Server->serve_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:339
+[29-Sep-2020 15:59:47 UTC] PHP  11. WP_REST_Server->dispatch() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:376
+[29-Sep-2020 15:59:47 UTC] PHP  12. university_search_results() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1050
+[29-Sep-2020 15:59:47 UTC] PHP Warning:  array_unique() expects parameter 1 to be array, string given in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/search-route.php on line 101
+[29-Sep-2020 15:59:47 UTC] PHP Stack trace:
+[29-Sep-2020 15:59:47 UTC] PHP   1. {main}() /Users/john/Local Sites/fictional-university/app/public/index.php:0
+[29-Sep-2020 15:59:47 UTC] PHP   2. require() /Users/john/Local Sites/fictional-university/app/public/index.php:17
+[29-Sep-2020 15:59:47 UTC] PHP   3. wp() /Users/john/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[29-Sep-2020 15:59:47 UTC] PHP   4. WP->main() /Users/john/Local Sites/fictional-university/app/public/wp-includes/functions.php:1285
+[29-Sep-2020 15:59:47 UTC] PHP   5. WP->parse_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:745
+[29-Sep-2020 15:59:47 UTC] PHP   6. do_action_ref_array() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:388
+[29-Sep-2020 15:59:47 UTC] PHP   7. WP_Hook->do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:544
+[29-Sep-2020 15:59:47 UTC] PHP   8. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[29-Sep-2020 15:59:47 UTC] PHP   9. rest_api_loaded() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287
+[29-Sep-2020 15:59:47 UTC] PHP  10. WP_REST_Server->serve_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:339
+[29-Sep-2020 15:59:47 UTC] PHP  11. WP_REST_Server->dispatch() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:376
+[29-Sep-2020 15:59:47 UTC] PHP  12. university_search_results() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1050
+[29-Sep-2020 15:59:47 UTC] PHP  13. array_unique() /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/search-route.php:101
+[29-Sep-2020 15:59:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/search-route.php:101) in /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php on line 1372
+[29-Sep-2020 15:59:47 UTC] PHP Stack trace:
+[29-Sep-2020 15:59:47 UTC] PHP   1. {main}() /Users/john/Local Sites/fictional-university/app/public/index.php:0
+[29-Sep-2020 15:59:47 UTC] PHP   2. require() /Users/john/Local Sites/fictional-university/app/public/index.php:17
+[29-Sep-2020 15:59:47 UTC] PHP   3. wp() /Users/john/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[29-Sep-2020 15:59:47 UTC] PHP   4. WP->main() /Users/john/Local Sites/fictional-university/app/public/wp-includes/functions.php:1285
+[29-Sep-2020 15:59:47 UTC] PHP   5. WP->parse_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:745
+[29-Sep-2020 15:59:47 UTC] PHP   6. do_action_ref_array() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:388
+[29-Sep-2020 15:59:47 UTC] PHP   7. WP_Hook->do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:544
+[29-Sep-2020 15:59:47 UTC] PHP   8. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[29-Sep-2020 15:59:47 UTC] PHP   9. rest_api_loaded() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287
+[29-Sep-2020 15:59:47 UTC] PHP  10. WP_REST_Server->serve_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:339
+[29-Sep-2020 15:59:47 UTC] PHP  11. WP_REST_Server->send_headers() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:408
+[29-Sep-2020 15:59:47 UTC] PHP  12. WP_REST_Server->send_header() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1384
+[29-Sep-2020 15:59:47 UTC] PHP  13. header() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1372
+[29-Sep-2020 16:15:25 UTC] PHP Parse error:  syntax error, unexpected 'as' (T_AS), expecting ']' in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/search-route.php on line 82
+[29-Sep-2020 16:15:31 UTC] PHP Parse error:  syntax error, unexpected 'as' (T_AS), expecting ']' in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/search-route.php on line 82
+[29-Sep-2020 17:29:36 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/page-search.php on line 65
+[29-Sep-2020 18:04:22 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/search.php on line 37
+[29-Sep-2020 18:04:25 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/search.php on line 37
+[29-Sep-2020 20:35:48 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 141
+[29-Sep-2020 20:36:07 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 141
+[29-Sep-2020 20:36:09 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 141
+[29-Sep-2020 20:36:12 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 141
+[29-Sep-2020 20:38:12 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 141
+[29-Sep-2020 20:38:44 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 141
+[30-Sep-2020 11:43:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_blog_info() in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php:169
+Stack trace:
+#0 /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php(287): our_login_title('')
+#1 /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php(249): WP_Hook->apply_filters('', Array)
+#2 /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php(633): apply_filters_ref_array('login_headertit...', Array)
+#3 /Users/john/Local Sites/fictional-university/app/public/wp-login.php(148): apply_filters_deprecated('login_headertit...', Array, '5.2.0', 'login_headertex...', 'Usage of the ti...')
+#4 /Users/john/Local Sites/fictional-university/app/public/wp-login.php(1392): login_header('Log In', '', Object(WP_Error))
+#5 {main}
+  thrown in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 169
+[30-Sep-2020 20:23:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_fiter() in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php:187
+Stack trace:
+#0 /Users/john/Local Sites/fictional-university/app/public/wp-settings.php(514): include()
+#1 /Users/john/Local Sites/fictional-university/app/public/wp-config.php(77): require_once('/Users/john/Loc...')
+#2 /Users/john/Local Sites/fictional-university/app/public/wp-load.php(37): require_once('/Users/john/Loc...')
+#3 /Users/john/Local Sites/fictional-university/app/public/wp-admin/admin.php(34): require_once('/Users/john/Loc...')
+#4 /Users/john/Local Sites/fictional-university/app/public/wp-admin/edit.php(10): require_once('/Users/john/Loc...')
+#5 {main}
+  thrown in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/functions.php on line 187
+[30-Sep-2020 21:46:01 UTC] PHP Parse error:  syntax error, unexpected '$existStatus' (T_VARIABLE) in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 28
+[30-Sep-2020 21:46:35 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 43
+[30-Sep-2020 21:46:51 UTC] PHP Warning:  Use of undefined constant no - assumed 'no' (this will throw an Error in a future version of PHP) in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/single-professor.php on line 28
+[30-Sep-2020 21:46:51 UTC] PHP Stack trace:
+[30-Sep-2020 21:46:51 UTC] PHP   1. {main}() /Users/john/Local Sites/fictional-university/app/public/index.php:0
+[30-Sep-2020 21:46:51 UTC] PHP   2. require() /Users/john/Local Sites/fictional-university/app/public/index.php:17
+[30-Sep-2020 21:46:51 UTC] PHP   3. require_once() /Users/john/Local Sites/fictional-university/app/public/wp-blog-header.php:19
+[30-Sep-2020 21:46:51 UTC] PHP   4. include() /Users/john/Local Sites/fictional-university/app/public/wp-includes/template-loader.php:106
+[01-Oct-2020 14:04:48 UTC] PHP Warning:  Use of undefined constant DELETE - assumed 'DELETE' (this will throw an Error in a future version of PHP) in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/like-route.php on line 13
+[01-Oct-2020 14:04:48 UTC] PHP Stack trace:
+[01-Oct-2020 14:04:48 UTC] PHP   1. {main}() /Users/john/Local Sites/fictional-university/app/public/index.php:0
+[01-Oct-2020 14:04:48 UTC] PHP   2. require() /Users/john/Local Sites/fictional-university/app/public/index.php:17
+[01-Oct-2020 14:04:48 UTC] PHP   3. wp() /Users/john/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[01-Oct-2020 14:04:48 UTC] PHP   4. WP->main() /Users/john/Local Sites/fictional-university/app/public/wp-includes/functions.php:1285
+[01-Oct-2020 14:04:48 UTC] PHP   5. WP->parse_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:745
+[01-Oct-2020 14:04:48 UTC] PHP   6. do_action_ref_array() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:388
+[01-Oct-2020 14:04:48 UTC] PHP   7. WP_Hook->do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:544
+[01-Oct-2020 14:04:48 UTC] PHP   8. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[01-Oct-2020 14:04:48 UTC] PHP   9. rest_api_loaded() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287
+[01-Oct-2020 14:04:48 UTC] PHP  10. rest_get_server() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:332
+[01-Oct-2020 14:04:48 UTC] PHP  11. do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:506
+[01-Oct-2020 14:04:48 UTC] PHP  12. WP_Hook->do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:478
+[01-Oct-2020 14:04:48 UTC] PHP  13. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[01-Oct-2020 14:04:48 UTC] PHP  14. university_like_routes() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287
+[01-Oct-2020 14:04:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/like-route.php:13) in /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php on line 1372
+[01-Oct-2020 14:04:48 UTC] PHP Stack trace:
+[01-Oct-2020 14:04:48 UTC] PHP   1. {main}() /Users/john/Local Sites/fictional-university/app/public/index.php:0
+[01-Oct-2020 14:04:48 UTC] PHP   2. require() /Users/john/Local Sites/fictional-university/app/public/index.php:17
+[01-Oct-2020 14:04:48 UTC] PHP   3. wp() /Users/john/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[01-Oct-2020 14:04:48 UTC] PHP   4. WP->main() /Users/john/Local Sites/fictional-university/app/public/wp-includes/functions.php:1285
+[01-Oct-2020 14:04:48 UTC] PHP   5. WP->parse_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:745
+[01-Oct-2020 14:04:48 UTC] PHP   6. do_action_ref_array() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:388
+[01-Oct-2020 14:04:48 UTC] PHP   7. WP_Hook->do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:544
+[01-Oct-2020 14:04:48 UTC] PHP   8. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[01-Oct-2020 14:04:48 UTC] PHP   9. rest_api_loaded() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287
+[01-Oct-2020 14:04:48 UTC] PHP  10. WP_REST_Server->serve_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:339
+[01-Oct-2020 14:04:48 UTC] PHP  11. WP_REST_Server->send_header() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:232
+[01-Oct-2020 14:04:48 UTC] PHP  12. header() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1372
+[01-Oct-2020 14:04:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/like-route.php:13) in /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php on line 1372
+[01-Oct-2020 14:04:48 UTC] PHP Stack trace:
+[01-Oct-2020 14:04:48 UTC] PHP   1. {main}() /Users/john/Local Sites/fictional-university/app/public/index.php:0
+[01-Oct-2020 14:04:48 UTC] PHP   2. require() /Users/john/Local Sites/fictional-university/app/public/index.php:17
+[01-Oct-2020 14:04:48 UTC] PHP   3. wp() /Users/john/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[01-Oct-2020 14:04:48 UTC] PHP   4. WP->main() /Users/john/Local Sites/fictional-university/app/public/wp-includes/functions.php:1285
+[01-Oct-2020 14:04:48 UTC] PHP   5. WP->parse_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:745
+[01-Oct-2020 14:04:48 UTC] PHP   6. do_action_ref_array() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:388
+[01-Oct-2020 14:04:48 UTC] PHP   7. WP_Hook->do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:544
+[01-Oct-2020 14:04:48 UTC] PHP   8. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[01-Oct-2020 14:04:48 UTC] PHP   9. rest_api_loaded() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287
+[01-Oct-2020 14:04:48 UTC] PHP  10. WP_REST_Server->serve_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:339
+[01-Oct-2020 14:04:48 UTC] PHP  11. WP_REST_Server->send_header() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:233
+[01-Oct-2020 14:04:48 UTC] PHP  12. header() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1372
+[01-Oct-2020 14:04:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/like-route.php:13) in /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php on line 1372
+[01-Oct-2020 14:04:48 UTC] PHP Stack trace:
+[01-Oct-2020 14:04:48 UTC] PHP   1. {main}() /Users/john/Local Sites/fictional-university/app/public/index.php:0
+[01-Oct-2020 14:04:48 UTC] PHP   2. require() /Users/john/Local Sites/fictional-university/app/public/index.php:17
+[01-Oct-2020 14:04:48 UTC] PHP   3. wp() /Users/john/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[01-Oct-2020 14:04:48 UTC] PHP   4. WP->main() /Users/john/Local Sites/fictional-university/app/public/wp-includes/functions.php:1285
+[01-Oct-2020 14:04:48 UTC] PHP   5. WP->parse_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:745
+[01-Oct-2020 14:04:48 UTC] PHP   6. do_action_ref_array() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:388
+[01-Oct-2020 14:04:48 UTC] PHP   7. WP_Hook->do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:544
+[01-Oct-2020 14:04:48 UTC] PHP   8. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[01-Oct-2020 14:04:48 UTC] PHP   9. rest_api_loaded() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287
+[01-Oct-2020 14:04:48 UTC] PHP  10. WP_REST_Server->serve_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:339
+[01-Oct-2020 14:04:48 UTC] PHP  11. WP_REST_Server->send_header() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:237
+[01-Oct-2020 14:04:48 UTC] PHP  12. header() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1372
+[01-Oct-2020 14:04:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/like-route.php:13) in /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php on line 1372
+[01-Oct-2020 14:04:48 UTC] PHP Stack trace:
+[01-Oct-2020 14:04:48 UTC] PHP   1. {main}() /Users/john/Local Sites/fictional-university/app/public/index.php:0
+[01-Oct-2020 14:04:48 UTC] PHP   2. require() /Users/john/Local Sites/fictional-university/app/public/index.php:17
+[01-Oct-2020 14:04:48 UTC] PHP   3. wp() /Users/john/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[01-Oct-2020 14:04:48 UTC] PHP   4. WP->main() /Users/john/Local Sites/fictional-university/app/public/wp-includes/functions.php:1285
+[01-Oct-2020 14:04:48 UTC] PHP   5. WP->parse_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:745
+[01-Oct-2020 14:04:48 UTC] PHP   6. do_action_ref_array() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:388
+[01-Oct-2020 14:04:48 UTC] PHP   7. WP_Hook->do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:544
+[01-Oct-2020 14:04:48 UTC] PHP   8. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[01-Oct-2020 14:04:48 UTC] PHP   9. rest_api_loaded() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287
+[01-Oct-2020 14:04:48 UTC] PHP  10. WP_REST_Server->serve_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:339
+[01-Oct-2020 14:04:48 UTC] PHP  11. WP_REST_Server->send_header() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:245
+[01-Oct-2020 14:04:48 UTC] PHP  12. header() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1372
+[01-Oct-2020 14:04:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/like-route.php:13) in /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php on line 1372
+[01-Oct-2020 14:04:48 UTC] PHP Stack trace:
+[01-Oct-2020 14:04:48 UTC] PHP   1. {main}() /Users/john/Local Sites/fictional-university/app/public/index.php:0
+[01-Oct-2020 14:04:48 UTC] PHP   2. require() /Users/john/Local Sites/fictional-university/app/public/index.php:17
+[01-Oct-2020 14:04:48 UTC] PHP   3. wp() /Users/john/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[01-Oct-2020 14:04:48 UTC] PHP   4. WP->main() /Users/john/Local Sites/fictional-university/app/public/wp-includes/functions.php:1285
+[01-Oct-2020 14:04:48 UTC] PHP   5. WP->parse_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:745
+[01-Oct-2020 14:04:48 UTC] PHP   6. do_action_ref_array() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:388
+[01-Oct-2020 14:04:48 UTC] PHP   7. WP_Hook->do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:544
+[01-Oct-2020 14:04:48 UTC] PHP   8. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[01-Oct-2020 14:04:48 UTC] PHP   9. rest_api_loaded() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287
+[01-Oct-2020 14:04:48 UTC] PHP  10. WP_REST_Server->serve_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:339
+[01-Oct-2020 14:04:48 UTC] PHP  11. WP_REST_Server->send_header() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:257
+[01-Oct-2020 14:04:48 UTC] PHP  12. header() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1372
+[01-Oct-2020 14:04:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/like-route.php:13) in /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php on line 1372
+[01-Oct-2020 14:04:48 UTC] PHP Stack trace:
+[01-Oct-2020 14:04:48 UTC] PHP   1. {main}() /Users/john/Local Sites/fictional-university/app/public/index.php:0
+[01-Oct-2020 14:04:48 UTC] PHP   2. require() /Users/john/Local Sites/fictional-university/app/public/index.php:17
+[01-Oct-2020 14:04:48 UTC] PHP   3. wp() /Users/john/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[01-Oct-2020 14:04:48 UTC] PHP   4. WP->main() /Users/john/Local Sites/fictional-university/app/public/wp-includes/functions.php:1285
+[01-Oct-2020 14:04:48 UTC] PHP   5. WP->parse_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:745
+[01-Oct-2020 14:04:48 UTC] PHP   6. do_action_ref_array() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:388
+[01-Oct-2020 14:04:48 UTC] PHP   7. WP_Hook->do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:544
+[01-Oct-2020 14:04:48 UTC] PHP   8. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[01-Oct-2020 14:04:48 UTC] PHP   9. rest_api_loaded() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287
+[01-Oct-2020 14:04:48 UTC] PHP  10. WP_REST_Server->serve_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:339
+[01-Oct-2020 14:04:48 UTC] PHP  11. WP_REST_Server->send_header() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:281
+[01-Oct-2020 14:04:48 UTC] PHP  12. header() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1372
+[01-Oct-2020 14:04:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/like-route.php:13) in /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php on line 1372
+[01-Oct-2020 14:04:48 UTC] PHP Stack trace:
+[01-Oct-2020 14:04:48 UTC] PHP   1. {main}() /Users/john/Local Sites/fictional-university/app/public/index.php:0
+[01-Oct-2020 14:04:48 UTC] PHP   2. require() /Users/john/Local Sites/fictional-university/app/public/index.php:17
+[01-Oct-2020 14:04:48 UTC] PHP   3. wp() /Users/john/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[01-Oct-2020 14:04:48 UTC] PHP   4. WP->main() /Users/john/Local Sites/fictional-university/app/public/wp-includes/functions.php:1285
+[01-Oct-2020 14:04:48 UTC] PHP   5. WP->parse_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:745
+[01-Oct-2020 14:04:48 UTC] PHP   6. do_action_ref_array() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:388
+[01-Oct-2020 14:04:48 UTC] PHP   7. WP_Hook->do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:544
+[01-Oct-2020 14:04:48 UTC] PHP   8. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[01-Oct-2020 14:04:48 UTC] PHP   9. rest_api_loaded() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287
+[01-Oct-2020 14:04:48 UTC] PHP  10. WP_REST_Server->serve_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:339
+[01-Oct-2020 14:04:48 UTC] PHP  11. WP_REST_Server->send_header() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:296
+[01-Oct-2020 14:04:48 UTC] PHP  12. header() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1372
+[01-Oct-2020 14:04:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/like-route.php:13) in /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php on line 1372
+[01-Oct-2020 14:04:48 UTC] PHP Stack trace:
+[01-Oct-2020 14:04:48 UTC] PHP   1. {main}() /Users/john/Local Sites/fictional-university/app/public/index.php:0
+[01-Oct-2020 14:04:48 UTC] PHP   2. require() /Users/john/Local Sites/fictional-university/app/public/index.php:17
+[01-Oct-2020 14:04:48 UTC] PHP   3. wp() /Users/john/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[01-Oct-2020 14:04:48 UTC] PHP   4. WP->main() /Users/john/Local Sites/fictional-university/app/public/wp-includes/functions.php:1285
+[01-Oct-2020 14:04:48 UTC] PHP   5. WP->parse_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:745
+[01-Oct-2020 14:04:48 UTC] PHP   6. do_action_ref_array() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:388
+[01-Oct-2020 14:04:48 UTC] PHP   7. WP_Hook->do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:544
+[01-Oct-2020 14:04:48 UTC] PHP   8. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[01-Oct-2020 14:04:48 UTC] PHP   9. rest_api_loaded() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287
+[01-Oct-2020 14:04:48 UTC] PHP  10. WP_REST_Server->serve_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:339
+[01-Oct-2020 14:04:48 UTC] PHP  11. WP_REST_Server->send_header() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:296
+[01-Oct-2020 14:04:48 UTC] PHP  12. header() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1372
+[01-Oct-2020 14:04:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/like-route.php:13) in /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php on line 1396
+[01-Oct-2020 14:04:48 UTC] PHP Stack trace:
+[01-Oct-2020 14:04:48 UTC] PHP   1. {main}() /Users/john/Local Sites/fictional-university/app/public/index.php:0
+[01-Oct-2020 14:04:48 UTC] PHP   2. require() /Users/john/Local Sites/fictional-university/app/public/index.php:17
+[01-Oct-2020 14:04:48 UTC] PHP   3. wp() /Users/john/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[01-Oct-2020 14:04:48 UTC] PHP   4. WP->main() /Users/john/Local Sites/fictional-university/app/public/wp-includes/functions.php:1285
+[01-Oct-2020 14:04:48 UTC] PHP   5. WP->parse_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:745
+[01-Oct-2020 14:04:48 UTC] PHP   6. do_action_ref_array() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:388
+[01-Oct-2020 14:04:48 UTC] PHP   7. WP_Hook->do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:544
+[01-Oct-2020 14:04:48 UTC] PHP   8. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[01-Oct-2020 14:04:48 UTC] PHP   9. rest_api_loaded() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287
+[01-Oct-2020 14:04:48 UTC] PHP  10. WP_REST_Server->serve_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:339
+[01-Oct-2020 14:04:48 UTC] PHP  11. WP_REST_Server->remove_header() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:294
+[01-Oct-2020 14:04:48 UTC] PHP  12. header_remove() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:1396
+[01-Oct-2020 14:04:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/like-route.php:13) in /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api.php on line 660
+[01-Oct-2020 14:04:48 UTC] PHP Stack trace:
+[01-Oct-2020 14:04:48 UTC] PHP   1. {main}() /Users/john/Local Sites/fictional-university/app/public/index.php:0
+[01-Oct-2020 14:04:48 UTC] PHP   2. require() /Users/john/Local Sites/fictional-university/app/public/index.php:17
+[01-Oct-2020 14:04:48 UTC] PHP   3. wp() /Users/john/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[01-Oct-2020 14:04:48 UTC] PHP   4. WP->main() /Users/john/Local Sites/fictional-university/app/public/wp-includes/functions.php:1285
+[01-Oct-2020 14:04:48 UTC] PHP   5. WP->parse_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:745
+[01-Oct-2020 14:04:48 UTC] PHP   6. do_action_ref_array() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:388
+[01-Oct-2020 14:04:48 UTC] PHP   7. WP_Hook->do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:544
+[01-Oct-2020 14:04:48 UTC] PHP   8. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[01-Oct-2020 14:04:48 UTC] PHP   9. rest_api_loaded() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287
+[01-Oct-2020 14:04:48 UTC] PHP  10. WP_REST_Server->serve_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:339
+[01-Oct-2020 14:04:48 UTC] PHP  11. apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:427
+[01-Oct-2020 14:04:48 UTC] PHP  12. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:206
+[01-Oct-2020 14:04:48 UTC] PHP  13. rest_send_cors_headers() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:289
+[01-Oct-2020 14:04:48 UTC] PHP  14. header() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:660
+[01-Oct-2020 14:04:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/like-route.php:13) in /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api.php on line 661
+[01-Oct-2020 14:04:48 UTC] PHP Stack trace:
+[01-Oct-2020 14:04:48 UTC] PHP   1. {main}() /Users/john/Local Sites/fictional-university/app/public/index.php:0
+[01-Oct-2020 14:04:48 UTC] PHP   2. require() /Users/john/Local Sites/fictional-university/app/public/index.php:17
+[01-Oct-2020 14:04:48 UTC] PHP   3. wp() /Users/john/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[01-Oct-2020 14:04:48 UTC] PHP   4. WP->main() /Users/john/Local Sites/fictional-university/app/public/wp-includes/functions.php:1285
+[01-Oct-2020 14:04:48 UTC] PHP   5. WP->parse_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:745
+[01-Oct-2020 14:04:48 UTC] PHP   6. do_action_ref_array() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:388
+[01-Oct-2020 14:04:48 UTC] PHP   7. WP_Hook->do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:544
+[01-Oct-2020 14:04:48 UTC] PHP   8. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[01-Oct-2020 14:04:48 UTC] PHP   9. rest_api_loaded() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287
+[01-Oct-2020 14:04:48 UTC] PHP  10. WP_REST_Server->serve_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:339
+[01-Oct-2020 14:04:48 UTC] PHP  11. apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:427
+[01-Oct-2020 14:04:48 UTC] PHP  12. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:206
+[01-Oct-2020 14:04:48 UTC] PHP  13. rest_send_cors_headers() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:289
+[01-Oct-2020 14:04:48 UTC] PHP  14. header() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:661
+[01-Oct-2020 14:04:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/like-route.php:13) in /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api.php on line 662
+[01-Oct-2020 14:04:48 UTC] PHP Stack trace:
+[01-Oct-2020 14:04:48 UTC] PHP   1. {main}() /Users/john/Local Sites/fictional-university/app/public/index.php:0
+[01-Oct-2020 14:04:48 UTC] PHP   2. require() /Users/john/Local Sites/fictional-university/app/public/index.php:17
+[01-Oct-2020 14:04:48 UTC] PHP   3. wp() /Users/john/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[01-Oct-2020 14:04:48 UTC] PHP   4. WP->main() /Users/john/Local Sites/fictional-university/app/public/wp-includes/functions.php:1285
+[01-Oct-2020 14:04:48 UTC] PHP   5. WP->parse_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:745
+[01-Oct-2020 14:04:48 UTC] PHP   6. do_action_ref_array() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:388
+[01-Oct-2020 14:04:48 UTC] PHP   7. WP_Hook->do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:544
+[01-Oct-2020 14:04:48 UTC] PHP   8. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[01-Oct-2020 14:04:48 UTC] PHP   9. rest_api_loaded() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287
+[01-Oct-2020 14:04:48 UTC] PHP  10. WP_REST_Server->serve_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:339
+[01-Oct-2020 14:04:48 UTC] PHP  11. apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:427
+[01-Oct-2020 14:04:48 UTC] PHP  12. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:206
+[01-Oct-2020 14:04:48 UTC] PHP  13. rest_send_cors_headers() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:289
+[01-Oct-2020 14:04:48 UTC] PHP  14. header() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:662
+[01-Oct-2020 14:04:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/like-route.php:13) in /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api.php on line 663
+[01-Oct-2020 14:04:48 UTC] PHP Stack trace:
+[01-Oct-2020 14:04:48 UTC] PHP   1. {main}() /Users/john/Local Sites/fictional-university/app/public/index.php:0
+[01-Oct-2020 14:04:48 UTC] PHP   2. require() /Users/john/Local Sites/fictional-university/app/public/index.php:17
+[01-Oct-2020 14:04:48 UTC] PHP   3. wp() /Users/john/Local Sites/fictional-university/app/public/wp-blog-header.php:16
+[01-Oct-2020 14:04:48 UTC] PHP   4. WP->main() /Users/john/Local Sites/fictional-university/app/public/wp-includes/functions.php:1285
+[01-Oct-2020 14:04:48 UTC] PHP   5. WP->parse_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:745
+[01-Oct-2020 14:04:48 UTC] PHP   6. do_action_ref_array() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp.php:388
+[01-Oct-2020 14:04:48 UTC] PHP   7. WP_Hook->do_action() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:544
+[01-Oct-2020 14:04:48 UTC] PHP   8. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:311
+[01-Oct-2020 14:04:48 UTC] PHP   9. rest_api_loaded() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:287
+[01-Oct-2020 14:04:48 UTC] PHP  10. WP_REST_Server->serve_request() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:339
+[01-Oct-2020 14:04:48 UTC] PHP  11. apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api/class-wp-rest-server.php:427
+[01-Oct-2020 14:04:48 UTC] PHP  12. WP_Hook->apply_filters() /Users/john/Local Sites/fictional-university/app/public/wp-includes/plugin.php:206
+[01-Oct-2020 14:04:48 UTC] PHP  13. rest_send_cors_headers() /Users/john/Local Sites/fictional-university/app/public/wp-includes/class-wp-hook.php:289
+[01-Oct-2020 14:04:48 UTC] PHP  14. header() /Users/john/Local Sites/fictional-university/app/public/wp-includes/rest-api.php:663
+[01-Oct-2020 14:24:47 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/like-route.php on line 19
+[01-Oct-2020 14:24:47 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /Users/john/Local Sites/fictional-university/app/public/wp-content/themes/fictional-university-theme/includes/like-route.php on line 19
